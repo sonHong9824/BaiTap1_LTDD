@@ -67,6 +67,7 @@ public class MainActivity extends AppCompatActivity {
                 // Log the results in Logcat
                 Log.d("MainActivity", "Số chẵn: " + soChan);
                 Log.d("MainActivity", "Số lẻ: " + soLe);
+                Toast.makeText(MainActivity.this,"Vui lòng mở console để xem kết quả", Toast.LENGTH_SHORT).show();
 
             }
         });
