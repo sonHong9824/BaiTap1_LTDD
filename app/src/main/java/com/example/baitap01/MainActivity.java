@@ -86,6 +86,7 @@ public class MainActivity extends AppCompatActivity {
                     text = reversed.toString().trim().toUpperCase();
                     Toast toast = Toast.makeText(MainActivity.this, text, Toast.LENGTH_SHORT);
                     toast.setGravity(Gravity.TOP | Gravity.END, 0, 0);
+                    
                     toast.show();
                 }
                 else {
